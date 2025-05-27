@@ -1,0 +1,12 @@
+# Core
+torch>=2.2.0         # CPU or GPU build; install the CUDA wheel if you have it
+numpy>=1.24
+opencv-python>=4.9   # for mask + distance-transform ops
+matplotlib>=3.8      # tiny debug visual
+
+# Dev / CI helpers
+pytest>=8.0          # unit-test runner
+gitpython>=3.1       # (optional) scripts that auto-tag commits, etc.
+
+# Large-file support (not a PyPI pkg, but note for contributors)
+# git-lfs
